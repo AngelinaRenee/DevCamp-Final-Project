@@ -4,7 +4,7 @@ body {
 
 .nav-bar {
     height:100px;
-    background-color:black;
+    background-color:#000000;
     display:grid;
     grid-template-columns:1fr 2.5fr 2fr;
 }
@@ -66,6 +66,10 @@ body {
     padding-left:45px;
     font-weight:400;
     font-size:1.5em;
+}
+
+.second-column > .bottom-row > .dropdown i {
+    font-size:.8em;
 }
 
 
@@ -133,6 +137,8 @@ body {
     display:grid;
     grid-template-columns:4fr 3fr;
     background-color:#36383f;
+    background: rgb(54,58,66);
+    background: linear-gradient(90deg, rgba(54,58,66,1) 0%, rgba(13,14,16,1) 100%);
 }
 
 .main > .right-side {
@@ -254,7 +260,7 @@ body {
 .left-side > .example-image img {
     width:650px;
     border-radius:8px;
-    box-shadow: -10px -10px 125px 0px rgba(0,0,0,1);
+    /* box-shadow: -10px -10px 125px 0px rgba(0,0,0,1); */
 }
 
 .footer {
